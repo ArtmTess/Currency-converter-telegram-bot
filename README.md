@@ -27,7 +27,8 @@ The user should send a request for the bot by following this pattern: <Currency1
 
 When a user makes an incorrect input APIException is called with a user-friendly error explanation. 
 
-Files structure:
+Project structure:
+- README.md
 - app.py - telegram bot,
 - config.py is storage for the token and currencies list,
 - exceptions.py - possible users error with friendly explanations.
