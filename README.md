@@ -6,10 +6,10 @@ This bot converts a given amount of a given currency to another given currency.
 
 Bot's commands:
 
-/start
+- /start
 a welcome message and instructions for using the bot.
 
-/values
+- /values
 list of supported currencies
 
 Commands should always start with the '/' symbol.
@@ -28,9 +28,9 @@ The user should send a request for the bot by following this pattern: <Currency1
 When a user makes an incorrect input APIException is called with a user-friendly error explanation. 
 
 Files structure:
-app.py - telegram bot,
-config.py is storage for the token and currencies list,
-exceptions.py - possible users error with friendly explanations.
+- app.py - telegram bot,
+- config.py is storage for the token and currencies list,
+- exceptions.py - possible users error with friendly explanations.
 
 
 
